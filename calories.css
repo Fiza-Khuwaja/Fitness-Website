@@ -1,0 +1,41 @@
+
+.blue_button{
+    background: none repeat scroll 0 0  #ff0000;
+    border-bottom: 3px solid #3277BC;
+    text-shadow: 1px 1px 0 #214D73;
+    border: medium none;
+    border-radius: 0.3em;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 7px 14px;}
+.frms input[type="text"], [type="password"], [type="file"], textarea, select {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.35em;
+    height: 35px;
+    margin-bottom: 15px;
+    margin-top: 5px
+    ;padding: 0 0.5%;
+    width: 99%;
+}
+.resp_code {
+   background: none repeat scroll 0 0 #f8f8f8;
+    border: 1px solid #fff;
+    border-radius: 0.25em;
+    color: #333;
+    font: 2em/1.3em Tahoma,Geneva,sans-serif;
+    margin: 5px 10px 10px 20%;
+    overflow: auto;
+    padding: 10px 20px;
+    width: 50%;
+}
+section{
+    background-color: #f8f8f8;
+}
+@media only screen and (max-width:650px) {
+    .resp_code {
+        margin: 5px 1px 10px !important;width:auto !important;}
+}
+

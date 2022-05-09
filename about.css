@@ -1,0 +1,170 @@
+
+body{
+	content: "";
+	background-image: url('../imgs/about.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1000px;
+	position: absolute;
+}
+
+
+*{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+.navbar{
+	position: sticky;
+ 	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 25px 10%;
+ 	background-color: #000000;
+ }
+li, a, button{
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+}
+
+.logo{
+	position: relative;
+	left: -110px;
+	
+	cursor: pointer;
+	width: 68px;
+}
+
+.navbar span{
+	position: relative;
+	left: -100px;
+	font-weight: 700;
+	font-size: 25px;
+	color: white;
+}
+
+.navlist{
+	list-style: none;
+}
+
+.navlist li{
+	display: inline-block;
+	padding: 0px 20px;
+	margin: 0px 10px;
+}
+
+.navlist li a{
+	transition: all 0.3 ease 0s;
+	font-weight: 700;
+	font-size: 17px;
+	
+}
+
+.navlist li a:hover{
+	color:red;
+}
+.active{
+	color: red;
+	padding: 8px 10px;
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+button{
+	position: relative;
+	left: 100px;
+	padding: 9px 25px;
+	background-color: rgba(255,0,0,1);
+	border:none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3 ease 0s;
+	
+}
+
+button:hover{
+		background-color: rgba(255,0,0,0.8);
+}
+
+
+#about{
+	color: white;
+	margin-top: 10px;
+
+	/* color: white; */
+}
+
+#heading{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#heading img{
+	height: 100px;
+}
+span{
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	
+}
+
+.heading2{
+	padding-top: 10px;
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+#services{
+    
+    margin: 30px;
+	display:flex ;
+	color: white;
+}
+#services-cont{
+    top: 28px;
+    position: relative;
+    background-color: rgb(247, 247, 224);
+    z-index: -1;
+}
+#services .box{
+    border: 2px solid white;
+    padding: 30px;
+    margin: 8px;
+    border-radius: 25px;
+    background-color: black;
+    
+}
+#services .box img{
+    display: block;
+    margin: auto;
+	height: 400px;
+	width: 400px;
+    
+}
+
+
+#services .box p {
+    font-family: 'Bree Serif', serif;
+
+}
+
+.secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
+    padding: 20px;
+}
+.center{
+    text-align: center;
+}

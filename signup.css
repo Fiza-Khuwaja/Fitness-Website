@@ -1,0 +1,241 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body::before {
+  opacity: 0.8;
+  content: "";
+  width: 100%;
+  height: 1000px;
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  background: url('../imgs/reg-form.jpg') no-repeat ;
+  background-size: cover;
+  background-attachment: scroll;
+ 
+ 
+}
+
+
+#heading{
+
+  width: 800px;
+  color: red;
+  background-color:rgb(0,0,0,0.6);;
+  margin: auto;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+}
+#main{
+     
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color:rgb(0,0,0,0.5) ;
+    width: 800px;
+    margin: auto;
+    
+}
+
+form{
+
+  padding: 15px;
+}
+
+#name{
+width: 100%;
+height: 80px;
+
+}
+
+.name{
+
+  color: red;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  width: 120px;
+}
+
+.firstname{
+
+  position: relative;
+  left: 200px;
+  top: -35px;
+  line-height: 40px;
+  border-radius: 6px;
+  
+  font-size: 16px;
+}
+.lastname{
+  
+  position: relative;
+  left: 400px;
+  top: -80px;
+  line-height: 40px;
+  border-radius: 6px;
+  
+  font-size: 16px;
+}
+
+.firstlabel{
+  position: relative;
+  color: red;
+  left: 200px;
+  top: -49px;
+
+}
+.lastlabel{
+  position: relative;
+  color: red;
+  left: 482px;
+  top: -81px;
+
+}
+
+
+
+.phone-no{
+
+  position: relative;
+  left: 200px;
+  top: -30px;
+  line-height: 40px;
+  width: 50px;
+  border-radius: 6px;
+  font-size: 16px;
+
+}
+
+.phone-no2{
+
+  position: relative;
+  left: 200px;
+  top: -30px;
+  line-height: 40px;
+  width: 200px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+#Male{
+
+  position: relative;
+  left: 200px;
+  top: -18px;
+
+}
+
+#Female{
+
+  position: relative;
+  left: 250px;
+  top: -18px;
+}
+
+.malelab{
+
+  position: relative;
+  left: 202px;
+  top: -18px;
+  color: red;
+}
+
+.femalelab{
+  position: relative;
+  left: 250px;
+  top: -18px;
+  color: red;
+}
+
+.email{
+
+  position: relative;
+  left: 200px;
+  top: -30px;
+  line-height: 40px;
+  width: 200px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.password{
+  
+  position: relative;
+  left: 200px;
+  top: -30px;
+  line-height: 40px;
+  width: 200px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+#age{
+
+  margin-top: 35px;
+}
+.age{
+
+  position: relative;
+  left: 200px;
+  top: -30px;
+  line-height: 40px;
+  width: 200px;
+  border-radius: 6px;
+  font-size: 16px;
+
+}
+
+.height{
+
+  position: relative;
+  left: 200px;
+  top: -30px;
+  line-height: 40px;
+  width: 200px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.weight{
+
+  position: relative;
+  left: 200px;
+  top: -30px;
+  line-height: 40px;
+  width: 200px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+#F-goal{
+
+  position: relative;
+  left: 200px;
+  top: -40px;
+  line-height: 40px;
+  width: 200px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.btn{
+
+  position: relative;
+  left: 300px;
+  margin-top: 20px;
+  line-height: 40px;
+  width: 150px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.btn:hover{
+
+  background-color: green;
+  cursor: pointer;
+}

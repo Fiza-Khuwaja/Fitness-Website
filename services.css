@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+body{
+	background-color: black;
+}
+.navbar{
+	position: sticky;
+ 	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 25px 10%;
+ 	background-color: #000000;
+ }
+li, a, button{
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+}
+
+.logo{
+	position: relative;
+	left: -110px;
+	
+	cursor: pointer;
+	width: 68px;
+}
+
+span{
+	position: relative;
+	left: -100px;
+	font-weight: 700;
+	font-size: 25px;
+	color: white;
+}
+
+.navlist{
+	list-style: none;
+}
+
+.navlist li{
+	display: inline-block;
+	padding: 0px 20px;
+	margin: 0px 10px;
+}
+
+.navlist li a{
+	transition: all 0.3 ease 0s;
+	font-weight: 700;
+	font-size: 17px;
+	
+}
+
+.navlist li a:hover{
+	color:red;
+}
+.active{
+	color: red;
+	padding: 8px 10px;
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+button{
+	position: relative;
+	left: 100px;
+	padding: 9px 25px;
+	background-color: rgba(255,0,0,1);
+	border:none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3 ease 0s;
+	/* margin-left: 30px;	 */
+}
+
+button:hover{
+		background-color: rgba(255,0,0,0.8);
+}
+
+.container{
+
+	height: 80vh;
+	background-image: url('../imgs/services.jpg');
+	background-size: cover;
+	padding:15px;
+	-webkit-display: flex;
+	display: flex;
+	position: relative;
+	color: white;
+	font-size: 25px;
+}
+
+.container .upper {
+	color: red;
+	width: 1000px;
+	position: relative;
+	top: 200px;
+	left: 50px;
+}
+
+.container .lower{
+	color: red;
+	width: 1000px;
+	position: relative;
+	top: 300px;
+	left: -700px
+}
+
+#upper{
+	font-size: 30px;
+}
+
+#bmi{
+	padding-top: 30px;
+	color: red;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+
+}
+#bmi1{
+	display: block;
+	
+	color: red;
+	position: relative;
+	left: 630px;
+	margin-bottom: 70px;
+	
+}
+#services{
+    
+    margin: 30px;
+	display:flex ;
+	color: white;
+}
+#services-cont{
+    top: 28px;
+    position: relative;
+    background-color: rgb(247, 247, 224);
+    z-index: -1;
+}
+#services .box{
+    border: 2px solid white;
+    padding: 30px;
+    margin: 8px;
+    border-radius: 25px;
+    background-color: black;
+    
+}
+#services .box img{
+    display: block;
+    margin: auto;
+	height: 400px;
+	width: 400px;
+    
+}
+
+
+#services .box p {
+    font-family: 'Bree Serif', serif;
+
+}
+
+.secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
+    padding: 20px;
+}
+.center{
+	text-align: center;
+}
+
+ #services .box button{
+	margin-top: 10px;
+	position: relative;
+	left: 150px;
+	
+}
